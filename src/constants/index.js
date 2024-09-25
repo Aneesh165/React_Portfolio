@@ -49,7 +49,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Jaleer manzil, vennervayal, karaparamba (673010) ",
+  address: " Karaparamba [673010], Calicut, Kerala ",
   phoneNo: "7012678472 ",
   email: "aneeshmp165@gmail.com",
 };
