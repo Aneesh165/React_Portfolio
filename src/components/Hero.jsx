@@ -36,7 +36,7 @@ const Hero = () => {
               alt="Aneesh"
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.5 }}
+              transition={{ duration: 1, delay: 2 }}
             />
           </div>
         </div>
