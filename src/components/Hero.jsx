@@ -1,4 +1,4 @@
-import profilepic from '../assets/Aneeshprofile.webp'
+import profilepic from '../assets/Transparent.png'
 import { HERO_CONTENT } from '../constants'
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex flex-wrap lg:flex-row-reverse pl-10">
             <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
-                    <img className='rounded-3xl lg:w-96 border border-stone-900' src={profilepic} alt="Aneesh" />
+                    <img className='rounded-3xl lg:w-96 ' src={profilepic} alt="Aneesh" />
                 </div>
             </div>
             <div className='w-full lg:w-1/2'>
