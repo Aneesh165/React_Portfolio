@@ -1,6 +1,8 @@
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
+import Projectss from "./components/Projectss";
 import Technologies from "./components/technologies";
 
 const App = () => {
@@ -17,7 +19,9 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <Technologies/>
-        <Projects/>
+        <Projectss/>
+        <Experience/>
+        <Contact/>
       </div>
     </div>
   );
