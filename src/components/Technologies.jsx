@@ -1,6 +1,6 @@
 import {RiReactjsFill, RiReactjsLine} from 'react-icons/ri'
-import {SiMongodb, SiTailwindcss} from 'react-icons/si'
-import {FaLinux, FaNodeJs} from 'react-icons/fa'
+import {SiGreenhouse, SiGreensock, SiMongodb, SiTailwindcss} from 'react-icons/si'
+import {FaGasPump, FaLinux, FaNodeJs} from 'react-icons/fa'
 import {BiLogoJavascript, BiLogoPostgresql} from 'react-icons/bi'
 import { animate, motion } from 'framer-motion'
 
@@ -63,6 +63,13 @@ const Technologies = () => {
             variants={iconVariants(4)}
             className='p-4'>
                 <BiLogoJavascript className='text-7xl text-yellow-300 '/>
+            </motion.div>
+            <motion.div 
+            initial="initial"
+            animate="animate"
+            variants={iconVariants(4)}
+            className='p-4'>
+                <SiGreensock className='text-7xl text-white'/>
             </motion.div>
         </motion.div>
     </div>
